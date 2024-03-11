@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="resumeStyles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<html lang="en">
+    <nav>
+        <div class="navbar">
+            <div class="navbar-contents">
+                <ul>
+                    <li id="title">
+                        <a href="index.html" >
+                            <img id= arrow src="voro-rubber-ducky-02_1200x (1).png" style="width: 50px;">
+                            <span><h5>RubbyDucky Industries&copy;</h5></span>
+                        </a>
+                    </li>
+            
+                    <li>
+                        
+                        <a class="nav-button" href="myMajor.html">
+                            <h5>Major</h5>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a class="nav-button" href="clubs.html">
+                            <h5>Clubs</h5>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a class="nav-button" href="myResume.html">
+                           <h5>Resume</h5>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a class="nav-button" href="APIexplanation.html">
+                            <h5>Rubber Duck API</h5>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+       </nav>
+
+       <body>
+        <div class="resume-description">
+            <p id="Rdescription">Putting my whole resume into html would be a long proccess that also wouldn't look very visually appealing so I'll talk about my skills, projects and work
+                experience here.
+            </p>
+
+        </div>
+       
+        <div class="project-container">
+            <h3>Some of my Recent Projects:</h3>
+            <div class="goBotProject">
+                <img src="/images/goBotBanner.png">
+               <div class="gobotDesc">
+                <h5>Discord Bot Written In Go</h5>:
+                <p><b>This is a discord bot that I wrote using go and the DiscordGO library, it can message the server, create dms, and I implemented a fun slot machine game as well. I am currently building a 
+                    blackjack function as well as it being able to play music and sounds in voice channels. I also implemented go maps to save user data.
+
+                </b></p>
+                
+               </div>
+
+               <button id="gobotGit">View On Github</button>
+               
+               <script>document.getElementById('gobotGit').addEventListener('click',function() {
+                window.location.href = 'https://github.com/newcoder69/goBot';
+                 });
+
+                </script>
+
+               
+                
+            </div>
+            <div class="calculator-proj">
+                <img src="/images/CalculatorBanner.jpeg">
+                <div class="calculator-desc">
+                
+                <div class="calcDesc">
+                    <h5>Calculator Written in Go</h5>::
+                    <p><b>This is a calculator that is also written in go that uses the go "math" package. Currently it completes basic math such as addiion,subtraction,multiplication,division. I am currently
+                        working on functions such as sin, cos and tangent. 
+                    </b></p>
+
+                </div>
+                </div>
+                <button id="gobotGit2">View On Github</button>
+               
+               <script>document.getElementById('gobotGit').addEventListener('click',function() {
+                window.location.href = 'https://github.com/newcoder69/learning-GO/goCalculator';
+                 });    
+
+                </script>
+
+            </div>
+        </div>
+
+
+
+        <div class="profExp">
+            <h3 id="profDesc">In the relm of professional experience I dont have any industry experience but I'm hoping to get an internship this summer</h3>
+        </div>
+
+
+        <div class="job-experience">
+           <div class="lifeguard">
+            <h5 id="jobTitle">Lifeguard</h5>
+
+            <ul>
+             <li>Years Held: 2</li>
+             <li>Company(s): Georgetown Aquatics/Premier Pool Management</li>
+             <li>description: Monitor both pool and other areas to maintain an environment that is both clean and safe. I had responsibilityies such as. Cleaning, adding and reading chemicals and monitoring the pool area</li>
+            </ul>
+
+           </div>
+        </div>
+       </body>
+
+
+       
+
+</html>

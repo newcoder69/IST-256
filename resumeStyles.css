@@ -1,0 +1,228 @@
+body{
+    background: rgb(127,133,245);
+    background: linear-gradient(149deg, rgba(127,133,245,1) 52%, rgba(255,255,255,1) 85%);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    min-height: 100vh;
+}
+.navbar-contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+    background: #764E62;
+    background: linear-gradient(270deg, #764E62, #22146C);
+    border-radius: 20px;
+    
+    
+
+   
+}
+
+.navbar{
+    position: static;
+}
+
+.navbar-contents ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-end;
+    width: 100%;
+    
+}
+
+.navbar-contents li{
+    padding: 15px;
+    
+    
+}
+
+#title{
+    flex-grow: 1;
+    
+}
+
+#title a{
+    display: flex;
+    align-items:center;
+    text-decoration:none;
+    color:white;
+    
+}
+
+#title a span{
+    margin-top: 15px;
+}
+
+.nav-button h5{
+    margin-top: 18px;
+    color:white;
+    font-size: 30px;
+    
+}
+
+
+.resume-description{
+    width: 600px;
+    height: 185px;
+    padding-top: 40px;
+    text-align: center;
+    margin-left: 1225px;
+    margin-top: 75px;
+    background-color: #3B3C36;
+    border-radius: 25px;
+    box-shadow: 2px 4px 8px;
+    padding:40px;
+
+
+}
+
+#Rdescription{
+    font-size: 20px;
+    font-weight: bold;
+    color: lightgrey;
+}
+
+
+.goBotProject{
+    width: 500px;
+    height: 550px;
+    border-radius: 30px;
+    background-color: darkgrey;
+    box-shadow: 2px 4px 8px;
+    margin-left: 750px;
+    margin-top: 200px;
+}
+
+
+.goBotProject h5{
+    padding: 10px;
+    
+    text-align: center;
+
+
+}
+
+.project-container h3{
+    margin-left: 1230px;
+    margin-top: 150px;
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+    text-shadow: 0 4px 8px;
+
+
+}
+
+
+
+.goBotProject img{
+    width: 100%;
+    height: 30%;
+    overflow: hidden;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+
+.gobotDesc{
+    background-color: gray;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.gobotDesc p{
+    font-size: 15px;
+    padding: 15px;
+    
+}
+
+
+#gobotGit{
+    margin-left: 170px;
+    border-color: red;
+    border-radius: 30px;
+    width: 150px;
+}
+
+.calculator-proj{   
+    width: 500px;
+    height: 550px;
+    border-radius: 30px;
+    background-color: darkgrey;
+    box-shadow: 2px 4px 8px;
+    margin-left: 1750px;
+    margin-top: -553px;
+    
+}
+
+.calculator-proj img{
+    width: 100%;
+    border-radius: 30px;
+    height: 30%;  
+    padding: 10px;
+}
+
+.calcDesc{
+    width: 90%;
+    background-color: grey;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 45px;
+    
+}
+
+.calcDesc h5{
+    text-align: center;
+    margin-right: 30px;
+    padding-bottom: 60px;
+    margin-bottom: -30px;
+}
+
+#gobotGit2{
+    margin-left: 170px;
+    border-color: red;
+    border-radius: 30px;
+    width: 150px;
+    margin-top: 50px;
+}
+
+
+.profExp{
+    width: 550px;
+    background-color: gray;
+    margin-top: 800px;
+    margin-left: 1200px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px;
+   
+}
+
+.profExp h3{
+    padding:30px;
+}
+
+.lifeguard{
+    margin-top: 200px;
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 200px;
+    margin-left: 1180px;
+}
+
+.lifeguard ul{
+    width: 90%;
+    height: 100%;
+}
+
+.lifeguard h5{
+    text-align: center;
+}

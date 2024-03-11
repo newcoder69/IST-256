@@ -1,0 +1,120 @@
+.navbar-contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+   background: #764E62;
+    background: linear-gradient(270deg, #764E62, #22146C); 
+    border-radius: 20px;
+
+    height: 100px;
+
+   
+}
+
+.navbar{
+    position: static;
+    height: 2px;
+}
+
+.navbar-contents ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-end;
+    width: 100%;
+    text-decoration: none;
+    margin-right: 500px;
+    padding-top: 100px;
+}
+
+.navbar-contents li{
+    padding: 20px;
+    text-decoration: none;
+    
+    
+}
+
+#title{
+    flex-grow: 1;
+    margin-bottom: 100px;
+}
+
+#title a{
+    display: flex;
+    align-items:center;
+    text-decoration: none;
+    color:white;
+    font-size: 50px;
+   
+    
+}
+
+#title a span{
+    margin-top: 15px;
+}
+
+.nav-button h5{
+
+    margin-top: 105px;
+    color:white;
+    font-size: 35px;
+    text-decoration: none;
+   
+}
+
+.navbar-contents li a{
+    text-decoration: none;
+}
+
+.Club-Description{
+    margin-top: 200px;
+    background-image: url(/images/teamPicture.png.JPEG);
+    width: 100vw;
+    height: 860px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+}
+
+.club-description-text h6{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 300px;
+    color: white;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    width: 2000px;
+    padding-left: 600px;
+}
+.meet-pictures{
+    margin-left: 340px;
+}
+#meetimg{
+    height: 500px;
+
+}
+
+.meet-pictures h4{
+    font-size: 40px;
+}
+
+
+.thon-pictures h4{
+    font-size: 40px;
+}
+
+.thon-pictures{
+    margin-left: 1480px;
+    margin-top: -660px;    
+}
+
+#thonimg{
+    height: 600px;
+    width: 700px;
+    
+}
